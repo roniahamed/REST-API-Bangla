@@ -1,4 +1,3 @@
----
 
 # Django REST Framework (DRF) এর ViewSet: একটি বিস্তারিত ব্যাখ্যা
 
@@ -12,7 +11,6 @@
 
 সহজ কথায়, আপনাকে আর `ListAPIView`, `CreateAPIView`, `RetrieveUpdateDestroyAPIView`-এর মতো একাধিক ক্লাস তৈরি করতে হবে না। একটি `ModelViewSet` ব্যবহার করেই আপনি এই সব কাজ করতে পারবেন। এর প্রধান সুবিধা হলো **DRY (Don't Repeat Yourself)** নীতি অনুসরণ করা, অর্থাৎ কোড কম লেখা এবং গোছানো রাখা।
 
----
 
 ## প্রধান বৈশিষ্ট্যসমূহ (Key Features)
 
